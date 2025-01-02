@@ -1,14 +1,11 @@
 // IMPROT GLOBAL CSS
+import AppRouter from "./AppRouter"
 import "./styles/global.css"
 
 function App() {
 
   return (
-    <>
-      <div>
-        <h1>OWLE COFFEE</h1>
-      </div>
-    </>
+    <AppRouter/>
   )
 }
 
